@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menu{
+	height: 100px;
+	background-color: white;
+}
+
+.mymenubutton
+{
+
+	width: 160px; 
+	height: 100px; 
+	font-family: 'Nanum Gothic', sans-serif; 
+	font-size: 15px; 
+	float: right; 
+	text-align: left;
+	background-color: white;
+	transition: .2s;
+}
+
+.mymenubutton:hover
+{
+	color: #8F26C7;
+	
+}
+
+
+.img-container{
+	width: 1040px;
+	margin: auto;
+}
+
+.box1
+{
+width:300px;
+height: 350px;
+background-color: white;
+	float: left;
+}
+
+.img-box
+{
+padding: 5px;
+width: 250px;
+height: 350px;
+float:left;
+}
+
+.text
+{
+width: 350px;
+font-family: 'Nanum Gothic', sans-serif; 
+font-size: 14px;
+text-align: left;
+padding-left: 980px;
+	display: absolute;
+	margin-top: -120px;
+	color: #3D3D3D;
+	line-height: 18px;
+}
+
+.Hellotext
+{
+padding-left: 565px;
+width: 350px;
+font-size: 150px;
+font-weight: 700;
+letter-spacing: -.04em;
+color: #442e69;
+font-family:'Open Sans', sans-serif;
+	margin-top: -60px;
+	line-height: 0.95;
+
+	
+}
+
+.simplegallerycontainer
+{ 
+width: 1040px;
+height: 350px;
+background-color: purple;
+margin: auto;
+display: absolute;
+margin-top: 250px;
+}
+
+.squareimg-box
+{
+padding: 11px;
+width: 324px;
+height: 324px;
+float:left;
+padding-top: 160px;
+}
+
+
+
+
+@media only screen and (max-width: 770px){
+
+body{
+   background-color: #ffffff;
+  }
+
+	.menu{
+	height: 100px;
+	background-color: white;
+}
+
+.mymenubutton
+{
+
+	width: 100px; 
+	height: 30px; 
+	font-family: 'Nanum Gothic', sans-serif; 
+	font-size: 14px; 
+	float: right; 
+	text-align: left;
+	background-color: white;
+	transition: .2s;
+	
+}
+
+.mymenubutton:hover
+{
+	color: #8F26C7;
+	
+}
+
+
+.img-container{
+	width: 770px;
+	margin: auto;
+}
+
+.box1
+{
+width:130px;
+height:155px;
+background-color: white;
+	float: left;
+}
+
+.img-box
+{
+padding: 5px;
+width: 250px;
+height: 350px;
+float:left;
+}
+
+.text
+{
+width: 350px;
+font-family: 'Nanum Gothic', sans-serif; 
+font-size: 14px;
+text-align: left;
+padding-left:80px;
+margin-top: 10px;
+	
+color: #3D3D3D;
+line-height: 18px;
+}
+
+.Hellotext
+{
+padding-left: 35px;
+width: 770px;
+font-size: 70px;
+font-weight: 700;
+letter-spacing: -.04em;
+color: #442e69;
+font-family:'Open Sans', sans-serif;
+	margin-top: 10px;
+	line-height: 0.95;
+	float:left;
+
+
+	
+}
+
+.squareimg-box
+{
+width: 500px;
+height: 500px;
+float:left;
+padding-top: 160px;
+}
+
+
+.simplegallerycontainer
+{ 
+width: 500px;
+height: 190px;
+background-color: purple;
+margin-top: 90px;
+}
+
+	
